@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'consola';
-    src: url("/Users/max/Documents/pg_cap_mainboard/root_directory/assets/fonts/consola-normal.woff2") format('woff2'),
-         url("/Users/max/Documents/pg_cap_mainboard/root_directory/assets/fonts/consola-normal.woff") format('woff');
+    src: url("fonts/consola-normal.woff2") format('woff2'),
+         url("consola-normal.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'consola-bold';
-    src: url("/Users/max/Documents/pg_cap_mainboard/root_directory/assets/fonts/consola-bold.woff2") format("woff2"),
-         url("/Users/max/Documents/pg_cap_mainboard/root_directory/assets/fonts/consola-bold.woff") format("woff");
+    src: url("onts/consola-bold.woff2") format("woff2"),
+         url("fonts/consola-bold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
