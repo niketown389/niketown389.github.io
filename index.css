@@ -16,21 +16,15 @@
     min-height: 300px;
 
     margin: 20px 0;
-    padding: 10px;
+    padding: 20px;
 
     border: 2px solid whitesmoke;
     border-radius: 0;
 
-    display: flex;
-
     /* background-color: #1A1A1A; */
 }
 
-.content-item h3 {
-    margin: 20px 0 10px 20px;
-}
-
-.contentitem-testbox {
+/* .contentitem-testbox {
     width: 500px;
     height: 500px;
 
@@ -40,3 +34,4 @@
 
     background-color: #1A1A1A;
 }
+ */
