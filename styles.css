@@ -30,21 +30,6 @@ body {
     flex-wrap: nowrap;
 }
 
-.home-container {
-    margin-left: 201px;
-    height: 100vh;
-    width: calc(100% - 201px);
-
-    display: flex;
-    overflow: hidden;
-
-    position: relative;
-}
-#home-screen {
-    position: absolute;
-    transform: translate(-20%, -30%) scale(.6);
-}
-
 .sidebar {
     padding: 20px 0;
     margin: 0;
@@ -67,14 +52,27 @@ body {
     padding-left: 40px;
 }
 
-.document {
-    width: 80%;
-    height: auto;
-    border: 1px solid whitesmoke;
-
-    padding: 20px;
-    margin: 20px;
+nav {
+    margin: 20px 0;
+    padding-left: 40px;
 }
+
+/*Text Styles*/
+
+.symbol {
+    margin-left: 0;
+    padding: 5px;
+    font-stretch: 100%;
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+h2 {
+    margin: 10px 0;
+}
+
 .bold {
     font-weight: 900;
 }
@@ -95,11 +93,6 @@ body {
     text-decoration: line-through;
 }
 
-nav {
-    margin: 20px 0;
-    padding-left: 40px;
-}
-
 li {
     list-style-type: none;
     margin: 10px 20px;
@@ -112,6 +105,17 @@ ul {
 a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+/*----------*/
+
+.document {
+    width: 80%;
+    height: auto;
+    border: 1px solid whitesmoke;
+
+    padding: 20px;
+    margin: 20px;
 }
 
 #loco {
@@ -130,19 +134,11 @@ a {
     margin: 5px 0;
 }
 
-.symbol {
-    margin: 0 10px 0 0;
-    padding: 5px;
-    font-stretch: 100%;
-    border: 1px solid white;
-    width: fit-content;
-    height: fit-content;
-}
-
 span {
     display: inline-flex;
     align-items: center;
 }
+
 .gallery {
     width: 80%;
     height: auto;
@@ -154,6 +150,7 @@ span {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .imgur {
     max-width: 100%;
     height: auto;
