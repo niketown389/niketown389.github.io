@@ -1,0 +1,55 @@
+
+.financial {
+    width: 100%;
+    min-height: 300px;
+
+    box-sizing: border-box;
+
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.findoc-type {
+    font-weight: 200;
+}
+
+#financials-years {
+    position: sticky;
+    z-index: 999;
+    border: 1px solid whitesmoke;
+    font-weight: 600;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid whitesmoke;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    font-weight: 200;
+
+}
+
+th .total {
+    font-weight: 600;
+}
+
+td {
+    text-align: right;
+}
+
+#financials-asterisk {
+    font-weight: 200;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.indent {
+    padding-left: 20px;
+}

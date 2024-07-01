@@ -15,11 +15,13 @@ body {
     background-color: black;
 }
 
-.main {
+.container {
     display: flex;
 }
 
-.container {
+main {
+    margin: 0;
+    padding: 0;
     margin-left: 200px;
     height: 100vh;
     width: calc(100% - 200px);
@@ -113,7 +115,7 @@ a {
     background-color: #262626;
 }
 
-.document {
+article {
     width: 80%;
     height: auto;
     border: 1px solid whitesmoke;
