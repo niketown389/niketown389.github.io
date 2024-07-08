@@ -10,5 +10,5 @@
 }
 #home-screen {
     position: absolute;
-    transform: translate(-20%, -30%) scale(.6);
+    transform: translate(-15%, -30%) scale(.75);
 }
