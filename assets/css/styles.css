@@ -23,3 +23,8 @@ body {
 .strikethru {
     text-decoration: line-through;
 }
+
+.logohead {
+    margin: 0;
+    padding: 0;
+}
