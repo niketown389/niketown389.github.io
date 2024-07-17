@@ -8,15 +8,12 @@ main {
     align-items: center;
 }
 
-#logon-container {
+
+
+.container {
     width: 300px;
 
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start; 
+    flex-flow: column nowrap;
     align-items: right;
-}
-
-#signon-sign {
-    margin: 10px 0;
 }
