@@ -3,6 +3,9 @@ body {
     
     margin: 0;
     padding: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 .ultrabig {
     font-size: 84px;
@@ -10,10 +13,17 @@ body {
 
 header {
     text-align: center;
+    position: fixed;
 }
-
+main {
+    height: calc(100% - 105.5px);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 article {
-    width: 90%;
+    width: 60%;
     height: auto;
     background-color: rgb(7, 7, 7);
 
