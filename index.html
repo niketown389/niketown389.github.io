@@ -7,15 +7,28 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sixtyfour:SCAN@-30&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
-            <div class="logon">
+            <div class="mainboard">
                 <div id="logon-container">
-                    <h1 class="logohead bold">pgcap</h1>
-                    <h1 class="logohead bold orange">mainboard</h1>
-                    <span><input type="password" id="identify"/><button onclick="location.href='home.html'">></button></span>
-                    <p>identification required for entry...</p>
+                    <h1 class="logohead noto bold">pgcap</h1>
+                    <h1 class="logohead noto bold orange">mainboard</h1>
+                    <p class="noto ultrasmall" id="signon-sign">identification required for entry...</p>
+                    <input class="inputs" type="password" id="identify"/><button class="noto inputs"  onclick="location.href='mb-home.html'">></button>
+                </div>
+            </div>
+            <div class="hallucinating">
+                <div id="logon-container">
+                    <h1 class="logohead sixtyfour">hallucinating</h1>
+                    <p class="noto ultrasmall">"As we went from Deities to Dimensional Geometry, the world slowmo exploded in fractals of information. 
+                        Every known fact as a point connected in a matrix of all known things; when 11th-century 
+                        Catholic monks and 21st-century PhD students develop their theses, towers of logic shift, swirl, and grow."</p>
+                    <button class="noto inputs" onclick="location.href='hal-home.html'">READ</button>
                 </div>
             </div>
         </main>

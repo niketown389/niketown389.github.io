@@ -1,0 +1,13 @@
+body {
+    background-color: #140f1b;
+    
+    margin: 0;
+    padding: 0;
+}
+.ultrabig {
+    font-size: 84px;
+}
+
+header {
+    align-content: center;
+}
