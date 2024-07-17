@@ -1,5 +1,5 @@
 body {
-    background-color: #140f1b;
+    background-color: black;
     
     margin: 0;
     padding: 0;
@@ -9,5 +9,14 @@ body {
 }
 
 header {
-    align-content: center;
+    text-align: center;
+}
+
+article {
+    width: 90%;
+    height: auto;
+    background-color: rgb(7, 7, 7);
+
+    padding: 20px;
+    margin: 20px;
 }
