@@ -8,8 +8,6 @@ main {
     align-items: center;
 }
 
-
-
 .container {
     height: 120px;
     width: 300px;
@@ -17,8 +15,4 @@ main {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-}
-
-.logohead {
-    font-size: 1.33rem;
 }
